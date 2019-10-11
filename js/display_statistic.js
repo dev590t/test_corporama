@@ -1,7 +1,6 @@
 
 $(function() {    
-    var $list, $newItemForm;
-    $list = $('ul');
+    var $newItemForm;
     $newItemForm = $('#newItemForm');
     $newItemForm.on('submit', function(e) {
         e.preventDefault();
